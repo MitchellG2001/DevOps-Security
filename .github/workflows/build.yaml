@@ -30,7 +30,6 @@ jobs:
             mitchell477032/mitchrepo:latest
   test:
     name: Test
-    needs: [ scan ]
     runs-on: ubuntu-latest
     steps:
       - name: Checkout the repository
