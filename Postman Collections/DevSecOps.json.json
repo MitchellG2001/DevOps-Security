@@ -1,0 +1,36 @@
+{
+	"info": {
+		"_postman_id": "953e8eeb-ab0b-40b8-b11b-c7dff8537fdf",
+		"name": "DevSecOps",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [],
+	"auth": {
+		"type": "inherit",
+		"inherit": {}
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "c6eea6cc-4d89-46da-b3b1-9585fae591d3",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "f9462423-a429-489f-88c0-d475a48d887b",
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}
